@@ -3,8 +3,8 @@ const  Web3  = require("web3");
 const {interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider (
-    'live mountain flat misery tribe obscure gadget luggage mouse version math snake',
-    'https://goerli.infura.io/v3/3780996b80354999addb9c0c99e77da0'
+    'live mountain flat misery tribe luggage mouse version math snake',
+    'https://goerli.infura.io/v3/3780996b803540c99e77da0'
 );
 
 const web3 = new Web3(provider);
